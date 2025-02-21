@@ -8,16 +8,18 @@ import UseEffect from './Hooks/UseEffect'
 import Parent from './Hooks/UseContext/Parent'
 import { UserProvider } from './Hooks/UseContext/UserContext'
 import Child from './Hooks/UseContext/Child'
+import UseReducer from './Hooks/UseContext/UseReducer'
 
 function App()
 {
-  const user="I'm Uzair"
-  const user2="from Uzair"
+  const user="I'm RizZzii"
+  const user2="tHe Rizz Karthick!"
   return(
     <div>
-      <UserProvider>
+      <UseReducer/>
+      {/* <UserProvider>
         <Child/>
-      </UserProvider>
+      </UserProvider> */}
       {/* <Parent user={user}/> */}
       {/* /{ <Navbar/> } */}
       {/* <UseEffect/> */}
